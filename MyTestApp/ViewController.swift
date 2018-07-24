@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .green
         let customView = MyCustomView(label1Text: "label1", label2Text: "label2")
+        customView.backgroundColor = .red
         customView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(customView)
         NSLayoutConstraint.activate(customView.constraintsToFillSuperview(marginH: 8.0, marginV: 8.0))

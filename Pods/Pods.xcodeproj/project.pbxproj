@@ -1,0 +1,1395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09651F96C113F6E2792355161CB47A46 /* UIView+LYTTestHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBA6DF6742E5EB4ED193BB35224FF32 /* UIView+LYTTestHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA6A171A56E7A2992D77B9BE2F5B595 /* Pods-MyTestAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF04F70226A2C8A3D1AF520E6CBE41DB /* Pods-MyTestAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C3AD5833CB62C8EA15F25434B2DE2E8 /* LYTViewSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E193629387342524C5CA8CF191B96ACE /* LYTViewSize.m */; };
+		0D139DE8398A8EA55B531451E89237BF /* LayoutTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 837733C838B4EBB7E600B6FAA78CD8FE /* LayoutTest-dummy.m */; };
+		1056C2C41E46A091038271E43865A0A2 /* UIView+LYTFrameComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2CB8B86C13C6ABD639B1C2BB9A2B46 /* UIView+LYTFrameComparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21403B6D9D88E0A6C090C38E94A75A74 /* LYTCatalogCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E928E1247ACBB87BCC70B8042CBA3 /* LYTCatalogCollectionViewController.m */; };
+		29EDB51ADE5B2BDEFAE8A968BE0D8B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1CA212F1731CBCC01676AE6B399E /* Foundation.framework */; };
+		3227196498B1F4C578F72A7AA812EDB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD628EB2582C53A293427CF7AAD243B /* UIKit.framework */; };
+		32E70534233D6FECF0B969D731C26605 /* LYTValuesIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = E60F3ED567A342A683C5CC0793033928 /* LYTValuesIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B294F233F20C5B465B60B7AFC506B0B /* LYTLayoutTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FE06C5550B93BDE18DD411E094329D /* LYTLayoutTestCase.m */; };
+		3E5BF63D44A4A61124B4A851483C28F6 /* LYTBoolValues.h in Headers */ = {isa = PBXBuildFile; fileRef = A8885C00D3979F6E26070D94554F2E33 /* LYTBoolValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB46CF49E04E1C6F7BAC53CF36F7451 /* LYTViewSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC5A55EE68F25644CE55E5C65E4E80 /* LYTViewSize+Swift.swift */; };
+		3FB2E7AD478B16F5D942012E85BEC25F /* LYTCatalogCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E454ED9F55FA8D1FFC18E3988D423FF3 /* LYTCatalogCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401B68AAB4A50AFFA2BFD049300C1215 /* LayoutTestBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5DF353B15D079112C95DB4930DD091 /* LayoutTestBase.framework */; };
+		4107432862708448D2C58D3052FB0C86 /* LYTAutolayoutFailureIntercepter.h in Headers */ = {isa = PBXBuildFile; fileRef = E315EAF9480EED5150BFA2ED90E93638 /* LYTAutolayoutFailureIntercepter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		416790FA1266E499658CA1245F165D0E /* LayoutTest.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB207DF307A7F5A92B62408CF94D2CB /* LayoutTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D1261F9229462153A30013AA38CC5A /* LYTImageValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 83780F922EF64C9A6B042530251F6EEB /* LYTImageValues.m */; };
+		42DBA1AD6527ADF0D65CE329C9DDAFF8 /* LYTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E571CA8E9550124546685D37894A6E /* LYTConfig.m */; };
+		433D5DA50FE72057B1EF5D8E7C28058F /* LYTIntegerValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 54520908C13C5CB4FE16D625CE3E220A /* LYTIntegerValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E85843CC77C433D802CA53F582AC82 /* LYTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECE96FF411C6B4FECC60928B09EEABB /* LYTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C7C6BA7E3348AB9B67F1A5C7E71BE3 /* LayoutTestBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E6F16326D4C11356E36D69D8B9B3F8 /* LayoutTestBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A65605779D5057C7BEEEECF4347237F /* LYTMutableCopier.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C55E33664C7CA32EB0D749267657BB3 /* LYTMutableCopier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA85616343112E9CD90D5AB933B7FF1 /* Pods-MyTestAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 797F367E743DE5B3DD2544D9D1EEDCA1 /* Pods-MyTestAppTests-dummy.m */; };
+		57EA2D3162D2D50D7BD7499B594D036D /* LYTViewCatalogProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D9D7E10F57122C2D052537A705A498 /* LYTViewCatalogProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58D49B60AEFD06D881CF31C971BCE3B8 /* Pods-MyTestAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E310E7FF4C1E3B035B6B3A3DCD22524 /* Pods-MyTestAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F5D4C6606E22E33163B463B5E18DEB /* UIView+LYTTestHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1430D8A24E0AB1818514252038A4B5 /* UIView+LYTTestHelpers.m */; };
+		5E2DF53BF5E74B2FD02744B1C2134623 /* LYTImageValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 327B7043FDCC0538D7B20679F2D109AA /* LYTImageValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		610D965A161E6C01870064D486A26044 /* LYTLayoutTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC4B32D54D7F3D1F371CE0EF0E21348 /* LYTLayoutTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68D58153111772D39B407C5284BDB3C4 /* LYTCatalogTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BE52928027A630737190CD21CFE32A31 /* LYTCatalogTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE2D480CEF1A89497D0D74C4E2C6511 /* UIView+LYTFrameComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0942BF22477405C252688BC108304D /* UIView+LYTFrameComparison.m */; };
+		6FA313A9455B6F4D809844239EA954DA /* LYTIntegerValues.m in Sources */ = {isa = PBXBuildFile; fileRef = C65DB1B19F1F13D4C9276C7B28CC358F /* LYTIntegerValues.m */; };
+		7015955B7AC78038B998BFE28B04CCA7 /* LYTDeviceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FB49DEFE75C1D6A6F63BC4793FFA1C1C /* LYTDeviceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70278D989FE0D89DAAFAE0A367FBA224 /* LYTAutolayoutFailureIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F3537B858D79F9E0FBE11EAE1672 /* LYTAutolayoutFailureIntercepter.m */; };
+		708C792077EEB4AEDA422AA068682AB5 /* LayoutTestBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E06A9389DA6D64C554DB0CBC7F48146 /* LayoutTestBase-dummy.m */; };
+		70D0A8C5EB36CF91EE6260CABA5E3AC7 /* LayoutTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75138DF124436A8BBD773A6CB51AB167 /* LayoutTestCase.swift */; };
+		72B08832C59E63CC61A6559C71E83EBF /* LYTLayoutPropertyTester.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFB3AF75E3FE43E2BE257C40063BE5E /* LYTLayoutPropertyTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7395B7BE536E0A0809F11F8909732373 /* Pods-MyTestAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E962643B59FB707EECC4AAB224313C2 /* Pods-MyTestAppUITests-dummy.m */; };
+		739F49476D37EC22F9BCBA0B0BDD4324 /* LYTViewProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1D028C68972D4CC9DF1F269DC1D0B4 /* LYTViewProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EECD3607642F453D48D1BDF883E3635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1CA212F1731CBCC01676AE6B399E /* Foundation.framework */; };
+		893E6FD241775DFA8E3EDEC55E758A13 /* UIView+LYTViewSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E92B89D255C35C6D6395C6371AB0DA /* UIView+LYTViewSize.m */; };
+		9093D3CBAC0B990E9531E5755D670295 /* LYTFloatValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498E34F3DD0EB3473293B8F05845CDB /* LYTFloatValues.m */; };
+		90BA6E8AD63A878E5D8CC2DF23EB6C36 /* LYTCatalogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54388E710E8647005C47765F1990150D /* LYTCatalogTableViewController.m */; };
+		910497D3C94AEF31989353EE22CDE40E /* LYTDataValues.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FA5A20B50B26C508BF680217868B31 /* LYTDataValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9579E379AB1D56416171A6F605AA684B /* UIView+LYTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3A5D8AABEA7AD2C9972ED37603089 /* UIView+LYTHelpers.m */; };
+		98F5C3CADD13EB91678090BE0945FF57 /* LYTLayoutFailingTestSnapshotRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C836A51B006FEBD3AD6B1CC837124F /* LYTLayoutFailingTestSnapshotRecorder.m */; };
+		9FFD6E417155E4CE2D1B7F28DE58CC4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1CA212F1731CBCC01676AE6B399E /* Foundation.framework */; };
+		A34689959CA8AF0F1EE2EDF3FA48FE73 /* UIView+LYTHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C54FC85F4CF7E0F2643222C87CA09F7 /* UIView+LYTHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A735F93236004DAD9D7BF18BF23DA89C /* LYTStringValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC1AE5044C4C40091067C77AD31780 /* LYTStringValues.m */; };
+		AA6E3FC56C9BED3A85B7F648E136203F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9311ECDBF0C0F98527660F5273970B /* XCTest.framework */; };
+		ADED42D73AC566714FC5D10A7A67BD7F /* Pods-MyTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4269B8330E0A6F2989604110B415CCBE /* Pods-MyTestApp-dummy.m */; };
+		B8A63391581E7E67D3724B5F5FE7198E /* LYTStringValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0492FA864AFAFBB0191FFA057801A6 /* LYTStringValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C269391B090505CB002FE02BF8CEAFF6 /* LYTBoolValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 9253878E1603722C890A564268A666C4 /* LYTBoolValues.m */; };
+		CDCFD4BD2068F19C63037BD4B5A98D2F /* LYTDataValues+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122282246D83AB2B767D6DFCA251F6B6 /* LYTDataValues+Swift.swift */; };
+		D599F39E36C1ECF9E9D4110B0A0AB636 /* LYTLayoutFailingTestSnapshotRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF35D6C5829B26DE8D7E049D55F624E /* LYTLayoutFailingTestSnapshotRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D647A50F026EA0C48947EBD3B265CD2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1CA212F1731CBCC01676AE6B399E /* Foundation.framework */; };
+		DA79AD21A88D074845A6D90D637D2A82 /* LYTViewSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A61BA2841A085F197DEB3ACE4C80F8 /* LYTViewSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20141AC536B60C610C12A600E3967D4 /* LYTFloatValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 998D486D4154F18DD222B3EE8C170A3F /* LYTFloatValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E291DDA98269BD4569B0D6807B95068D /* LayoutTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1B2ED1A76084ABDDF7A5FDA7EBAB3E /* LayoutTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35D2ABE4875CC36665EF06B7771107F /* UIView+LYTViewSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 763638D80B44869B75229D811197790E /* UIView+LYTViewSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67959D08F11ABF8E36C5D8447AB62D8 /* LYTDeviceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 008E2502597D50207D86A42B087DF585 /* LYTDeviceConstants.m */; };
+		E73BC918D28F6AE5A762632568FDA850 /* LYTLayoutPropertyTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB670B4A43874277B78F7433FF6942 /* LYTLayoutPropertyTester.m */; };
+		F4C5C7FC3F3C80C705F8B08D189ADAF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C1CA212F1731CBCC01676AE6B399E /* Foundation.framework */; };
+		F5A74D85950E95486EA9D9E111FB6B88 /* LYTDataValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F844FE0FDB794EB8235FCFB86AEB8 /* LYTDataValues.m */; };
+		F7F81FA54DA34F8ED06E46B5EC0FB2DA /* Pods-MyTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BC5E91A173A4F8131B048B48A7B9E2 /* Pods-MyTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85826E8238D44A34B9D4158022DFC13 /* LYTValuesIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDB3CE8A48FA75C9CA5FD65009CC38 /* LYTValuesIterator.m */; };
+		F991FFADF7542A3B49DEB2655AA35634 /* LayoutTestBase.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EB4220E9734BBF6019D25C21CFF33D /* LayoutTestBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB81BCD30FAF4419F6F5D9344FF57F4E /* LYTMutableCopier.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FC9A34627BEECEE6D8EBBB07C929EC /* LYTMutableCopier.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69DA00C8462AD0C622032061B8A0E207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FA53D081D39877A573B5B1DD59FCBE;
+			remoteInfo = "Pods-MyTestApp";
+		};
+		ADC7FC82BEEEEEFFF359DC1D44796FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B630634C5AE5B672A3FC2FD6A21DFD;
+			remoteInfo = LayoutTest;
+		};
+		BB96F8C014234BBAF42115AA48029731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209F8A33D536E772FCB639581DA587C2;
+			remoteInfo = LayoutTestBase;
+		};
+		C133D515A2D7B821846A672A5B32184C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FA53D081D39877A573B5B1DD59FCBE;
+			remoteInfo = "Pods-MyTestApp";
+		};
+		D5105A291E843616AF4145AB3F5A0E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209F8A33D536E772FCB639581DA587C2;
+			remoteInfo = LayoutTestBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008E2502597D50207D86A42B087DF585 /* LYTDeviceConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTDeviceConstants.m; path = LayoutTestBase/Core/ViewSizing/LYTDeviceConstants.m; sourceTree = "<group>"; };
+		0249B910B50E04A9AF7AAB282060A9B5 /* Pods-MyTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0718DCB3246421DE51A7BD8A75E0D8CF /* Pods-MyTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		086C8A201382A5EAF6CF8E35ED124CA0 /* Pods-MyTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTestApp.modulemap"; sourceTree = "<group>"; };
+		0926B9A2C93664963F0120DCB8161D2B /* Pods-MyTestApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTestApp-resources.sh"; sourceTree = "<group>"; };
+		0A1430D8A24E0AB1818514252038A4B5 /* UIView+LYTTestHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTTestHelpers.m"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTTestHelpers.m"; sourceTree = "<group>"; };
+		11E970404495F03F7B828FE79FD72713 /* LayoutTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutTest-prefix.pch"; sourceTree = "<group>"; };
+		122282246D83AB2B767D6DFCA251F6B6 /* LYTDataValues+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LYTDataValues+Swift.swift"; path = "LayoutTestBase/Swift/LYTDataValues+Swift.swift"; sourceTree = "<group>"; };
+		1498E34F3DD0EB3473293B8F05845CDB /* LYTFloatValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTFloatValues.m; path = LayoutTestBase/Core/Generators/LYTFloatValues.m; sourceTree = "<group>"; };
+		1B3F587FD7631C20E055A0CA6C8DE531 /* Pods-MyTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1ECE96FF411C6B4FECC60928B09EEABB /* LYTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTConfig.h; path = LayoutTestBase/Config/LYTConfig.h; sourceTree = "<group>"; };
+		24D9D7E10F57122C2D052537A705A498 /* LYTViewCatalogProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTViewCatalogProvider.h; path = LayoutTestBase/Catalog/LYTViewCatalogProvider.h; sourceTree = "<group>"; };
+		26A61BA2841A085F197DEB3ACE4C80F8 /* LYTViewSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTViewSize.h; path = LayoutTestBase/Core/ViewSizing/LYTViewSize.h; sourceTree = "<group>"; };
+		2B9311ECDBF0C0F98527660F5273970B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2BC4B32D54D7F3D1F371CE0EF0E21348 /* LYTLayoutTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTLayoutTestCase.h; path = LayoutTest/TestCase/LYTLayoutTestCase.h; sourceTree = "<group>"; };
+		2E962643B59FB707EECC4AAB224313C2 /* Pods-MyTestAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTestAppUITests-dummy.m"; sourceTree = "<group>"; };
+		327B7043FDCC0538D7B20679F2D109AA /* LYTImageValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTImageValues.h; path = LayoutTestBase/Core/Generators/LYTImageValues.h; sourceTree = "<group>"; };
+		367F4112144C27189619F3F1A14C6EEC /* Pods-MyTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		3996F3537B858D79F9E0FBE11EAE1672 /* LYTAutolayoutFailureIntercepter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTAutolayoutFailureIntercepter.m; path = LayoutTestBase/Autolayout/LYTAutolayoutFailureIntercepter.m; sourceTree = "<group>"; };
+		39B9394CC576FACCA50F87B39FACEF15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAB670B4A43874277B78F7433FF6942 /* LYTLayoutPropertyTester.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTLayoutPropertyTester.m; path = LayoutTestBase/Core/Testers/LYTLayoutPropertyTester.m; sourceTree = "<group>"; };
+		3E06A9389DA6D64C554DB0CBC7F48146 /* LayoutTestBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutTestBase-dummy.m"; sourceTree = "<group>"; };
+		3F2522BB5DB59900263271ADB225D05A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A305D7091D3CE1E5ADB9D287B61DB /* Pods-MyTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTestApp-frameworks.sh"; sourceTree = "<group>"; };
+		4269B8330E0A6F2989604110B415CCBE /* Pods-MyTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTestApp-dummy.m"; sourceTree = "<group>"; };
+		451C1CA212F1731CBCC01676AE6B399E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AF3748098E10881F5588A3F79216711 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0492FA864AFAFBB0191FFA057801A6 /* LYTStringValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTStringValues.h; path = LayoutTestBase/Core/Generators/LYTStringValues.h; sourceTree = "<group>"; };
+		4FA3A5D8AABEA7AD2C9972ED37603089 /* UIView+LYTHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTHelpers.m"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTHelpers.m"; sourceTree = "<group>"; };
+		54388E710E8647005C47765F1990150D /* LYTCatalogTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTCatalogTableViewController.m; path = LayoutTestBase/Catalog/LYTCatalogTableViewController.m; sourceTree = "<group>"; };
+		54520908C13C5CB4FE16D625CE3E220A /* LYTIntegerValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTIntegerValues.h; path = LayoutTestBase/Core/Generators/LYTIntegerValues.h; sourceTree = "<group>"; };
+		60E92B89D255C35C6D6395C6371AB0DA /* UIView+LYTViewSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTViewSize.m"; path = "LayoutTestBase/Core/ViewSizing/UIView+LYTViewSize.m"; sourceTree = "<group>"; };
+		618F844FE0FDB794EB8235FCFB86AEB8 /* LYTDataValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTDataValues.m; path = LayoutTestBase/Core/Generators/LYTDataValues.m; sourceTree = "<group>"; };
+		61EB50E4F43A7BD7CA3A17A304F398C0 /* Pods-MyTestAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTestAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61FC9A34627BEECEE6D8EBBB07C929EC /* LYTMutableCopier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTMutableCopier.m; path = LayoutTestBase/Core/Helpers/LYTMutableCopier.m; sourceTree = "<group>"; };
+		61FE06C5550B93BDE18DD411E094329D /* LYTLayoutTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTLayoutTestCase.m; path = LayoutTest/TestCase/LYTLayoutTestCase.m; sourceTree = "<group>"; };
+		67E571CA8E9550124546685D37894A6E /* LYTConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTConfig.m; path = LayoutTestBase/Config/LYTConfig.m; sourceTree = "<group>"; };
+		6CBA6DF6742E5EB4ED193BB35224FF32 /* UIView+LYTTestHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTTestHelpers.h"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTTestHelpers.h"; sourceTree = "<group>"; };
+		6D9B532FC4E3E9649C8B79D01149F947 /* Pods-MyTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		72E6F16326D4C11356E36D69D8B9B3F8 /* LayoutTestBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutTestBase-umbrella.h"; sourceTree = "<group>"; };
+		75138DF124436A8BBD773A6CB51AB167 /* LayoutTestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutTestCase.swift; path = LayoutTest/Swift/LayoutTestCase.swift; sourceTree = "<group>"; };
+		75EC1AE5044C4C40091067C77AD31780 /* LYTStringValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTStringValues.m; path = LayoutTestBase/Core/Generators/LYTStringValues.m; sourceTree = "<group>"; };
+		763638D80B44869B75229D811197790E /* UIView+LYTViewSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTViewSize.h"; path = "LayoutTestBase/Core/ViewSizing/UIView+LYTViewSize.h"; sourceTree = "<group>"; };
+		797F367E743DE5B3DD2544D9D1EEDCA1 /* Pods-MyTestAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTestAppTests-dummy.m"; sourceTree = "<group>"; };
+		7C55E33664C7CA32EB0D749267657BB3 /* LYTMutableCopier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTMutableCopier.h; path = LayoutTestBase/Core/Helpers/LYTMutableCopier.h; sourceTree = "<group>"; };
+		7CFE469BAF85D99C765A49F4F504EA04 /* Pods-MyTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E310E7FF4C1E3B035B6B3A3DCD22524 /* Pods-MyTestAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTestAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		837733C838B4EBB7E600B6FAA78CD8FE /* LayoutTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutTest-dummy.m"; sourceTree = "<group>"; };
+		83780F922EF64C9A6B042530251F6EEB /* LYTImageValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTImageValues.m; path = LayoutTestBase/Core/Generators/LYTImageValues.m; sourceTree = "<group>"; };
+		8727908F785FAA184FD03A2A6CDBFAA0 /* Pods-MyTestAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTestAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		873815F9C5CF2D7059852AEDFA56FDFF /* Pods-MyTestAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTestAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		88BC5E91A173A4F8131B048B48A7B9E2 /* Pods-MyTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTestApp-umbrella.h"; sourceTree = "<group>"; };
+		88CC5A55EE68F25644CE55E5C65E4E80 /* LYTViewSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LYTViewSize+Swift.swift"; path = "LayoutTestBase/Swift/LYTViewSize+Swift.swift"; sourceTree = "<group>"; };
+		8B1B2ED1A76084ABDDF7A5FDA7EBAB3E /* LayoutTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutTest-umbrella.h"; sourceTree = "<group>"; };
+		8CD628EB2582C53A293427CF7AAD243B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9253878E1603722C890A564268A666C4 /* LYTBoolValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTBoolValues.m; path = LayoutTestBase/Core/Generators/LYTBoolValues.m; sourceTree = "<group>"; };
+		9364B9818240D1CAA85B11D8778FDE85 /* LayoutTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LayoutTest.framework; path = LayoutTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943C38F1A3480D24B433A0F78951DAA0 /* Pods-MyTestAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTestAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		998D486D4154F18DD222B3EE8C170A3F /* LYTFloatValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTFloatValues.h; path = LayoutTestBase/Core/Generators/LYTFloatValues.h; sourceTree = "<group>"; };
+		9B0942BF22477405C252688BC108304D /* UIView+LYTFrameComparison.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYTFrameComparison.m"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTFrameComparison.m"; sourceTree = "<group>"; };
+		9C54FC85F4CF7E0F2643222C87CA09F7 /* UIView+LYTHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTHelpers.h"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTHelpers.h"; sourceTree = "<group>"; };
+		9E2CB8B86C13C6ABD639B1C2BB9A2B46 /* UIView+LYTFrameComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYTFrameComparison.h"; path = "LayoutTestBase/UIViewHelpers/UIView+LYTFrameComparison.h"; sourceTree = "<group>"; };
+		A34DA6C2A24A8C47A49E8B6FE4A4959C /* LayoutTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayoutTest.xcconfig; sourceTree = "<group>"; };
+		A8885C00D3979F6E26070D94554F2E33 /* LYTBoolValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTBoolValues.h; path = LayoutTestBase/Core/Generators/LYTBoolValues.h; sourceTree = "<group>"; };
+		AA044CCC2899F3770BBF0F6EEA6D390A /* Pods-MyTestAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTestAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABFB3AF75E3FE43E2BE257C40063BE5E /* LYTLayoutPropertyTester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTLayoutPropertyTester.h; path = LayoutTestBase/Core/Testers/LYTLayoutPropertyTester.h; sourceTree = "<group>"; };
+		AE5DF353B15D079112C95DB4930DD091 /* LayoutTestBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutTestBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B057F8377F6022EF8EC5B946188ADBB0 /* Pods-MyTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B185F4EA684C97118980EDC5733DD67E /* Pods-MyTestAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTestAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5549C856DD410430FD9E732DEF6C635 /* Pods_MyTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyTestAppTests.framework; path = "Pods-MyTestAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FA5A20B50B26C508BF680217868B31 /* LYTDataValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDataValues.h; path = LayoutTestBase/Core/Generators/LYTDataValues.h; sourceTree = "<group>"; };
+		BE52928027A630737190CD21CFE32A31 /* LYTCatalogTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTCatalogTableViewController.h; path = LayoutTestBase/Catalog/LYTCatalogTableViewController.h; sourceTree = "<group>"; };
+		BE88F77DA17F25F765715433FAFC9D60 /* LayoutTestBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutTestBase-prefix.pch"; sourceTree = "<group>"; };
+		C00DA774F1EDF03D35D1BC6B41AA4276 /* LayoutTestBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayoutTestBase.xcconfig; sourceTree = "<group>"; };
+		C10D3265E19CC0C1AB8119ECA0792287 /* Pods_MyTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyTestApp.framework; path = "Pods-MyTestApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B0FB089CB14C2D5D4DCD32EDD95293 /* Pods-MyTestAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTestAppTests.modulemap"; sourceTree = "<group>"; };
+		C2BDB3CE8A48FA75C9CA5FD65009CC38 /* LYTValuesIterator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTValuesIterator.m; path = LayoutTestBase/Core/Generators/Private/LYTValuesIterator.m; sourceTree = "<group>"; };
+		C65DB1B19F1F13D4C9276C7B28CC358F /* LYTIntegerValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTIntegerValues.m; path = LayoutTestBase/Core/Generators/LYTIntegerValues.m; sourceTree = "<group>"; };
+		CAB207DF307A7F5A92B62408CF94D2CB /* LayoutTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutTest.h; path = LayoutTest/LayoutTest.h; sourceTree = "<group>"; };
+		CFC308A39B88852BD025D4F2C34E4D73 /* LayoutTestBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LayoutTestBase.framework; path = LayoutTestBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D121844D4BC9C07A3E8D613D36091D12 /* Pods-MyTestAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTestAppUITests.modulemap"; sourceTree = "<group>"; };
+		D2D325BDAC3143EDDABDD0374C8930B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C836A51B006FEBD3AD6B1CC837124F /* LYTLayoutFailingTestSnapshotRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTLayoutFailingTestSnapshotRecorder.m; path = LayoutTest/TestCase/LYTLayoutFailingTestSnapshotRecorder.m; sourceTree = "<group>"; };
+		DD02139853F3DCE39E91045A63811AA6 /* Pods_MyTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyTestAppUITests.framework; path = "Pods-MyTestAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFC3BA3ED79B7C3B70782FA142BB204 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08E928E1247ACBB87BCC70B8042CBA3 /* LYTCatalogCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTCatalogCollectionViewController.m; path = LayoutTestBase/Catalog/LYTCatalogCollectionViewController.m; sourceTree = "<group>"; };
+		E0EB4220E9734BBF6019D25C21CFF33D /* LayoutTestBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LayoutTestBase.h; path = LayoutTestBase/LayoutTestBase.h; sourceTree = "<group>"; };
+		E193629387342524C5CA8CF191B96ACE /* LYTViewSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYTViewSize.m; path = LayoutTestBase/Core/ViewSizing/LYTViewSize.m; sourceTree = "<group>"; };
+		E315EAF9480EED5150BFA2ED90E93638 /* LYTAutolayoutFailureIntercepter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTAutolayoutFailureIntercepter.h; path = LayoutTestBase/Autolayout/LYTAutolayoutFailureIntercepter.h; sourceTree = "<group>"; };
+		E454ED9F55FA8D1FFC18E3988D423FF3 /* LYTCatalogCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTCatalogCollectionViewController.h; path = LayoutTestBase/Catalog/LYTCatalogCollectionViewController.h; sourceTree = "<group>"; };
+		E60F3ED567A342A683C5CC0793033928 /* LYTValuesIterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTValuesIterator.h; path = LayoutTestBase/Core/Generators/Private/LYTValuesIterator.h; sourceTree = "<group>"; };
+		EAEE0C2E351EE3BF3336E7E5AECE2F27 /* LayoutTestBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LayoutTestBase.modulemap; sourceTree = "<group>"; };
+		ED1D028C68972D4CC9DF1F269DC1D0B4 /* LYTViewProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTViewProvider.h; path = LayoutTestBase/Core/LYTViewProvider.h; sourceTree = "<group>"; };
+		EE67057257E403B0ACA5C80909D0D412 /* Pods-MyTestAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTestAppUITests-resources.sh"; sourceTree = "<group>"; };
+		EF04F70226A2C8A3D1AF520E6CBE41DB /* Pods-MyTestAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTestAppTests-umbrella.h"; sourceTree = "<group>"; };
+		FA3B203C44C33A0DEF12876236489CA7 /* LayoutTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LayoutTest.modulemap; sourceTree = "<group>"; };
+		FA8CC2B1BDD9B923A6F9B911D1B03669 /* Pods-MyTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB49DEFE75C1D6A6F63BC4793FFA1C1C /* LYTDeviceConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDeviceConstants.h; path = LayoutTestBase/Core/ViewSizing/LYTDeviceConstants.h; sourceTree = "<group>"; };
+		FE7CF3259FBE661C2BA6B721420ABE14 /* Pods-MyTestAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTestAppTests-resources.sh"; sourceTree = "<group>"; };
+		FFF35D6C5829B26DE8D7E049D55F624E /* LYTLayoutFailingTestSnapshotRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTLayoutFailingTestSnapshotRecorder.h; path = LayoutTest/TestCase/LYTLayoutFailingTestSnapshotRecorder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2651311F4F81BEEFB8D4AD3AFD507E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C5C7FC3F3C80C705F8B08D189ADAF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EB2E006A16D42A91DDDB4BE4025374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D647A50F026EA0C48947EBD3B265CD2C /* Foundation.framework in Frameworks */,
+				3227196498B1F4C578F72A7AA812EDB0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42728B135634605EF96530EBB3378B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EDB51ADE5B2BDEFAE8A968BE0D8B3B /* Foundation.framework in Frameworks */,
+				401B68AAB4A50AFFA2BFD049300C1215 /* LayoutTestBase.framework in Frameworks */,
+				AA6E3FC56C9BED3A85B7F648E136203F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53FFCA5AAB674CA9892B5B8EAF4C9041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD6E417155E4CE2D1B7F28DE58CC4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E11D59FE68CCD1CEFF07E0CE94C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EECD3607642F453D48D1BDF883E3635 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127D3323AFA8DB3700AEE22F518A0893 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EBD8D446DAFF323AFDCB608F206A648 /* LayoutTest */,
+				843F2C48BF82EF72860C1385B937946D /* LayoutTestBase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24AD6CA72371E78B15C6446DD5148698 /* Pods-MyTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				39B9394CC576FACCA50F87B39FACEF15 /* Info.plist */,
+				086C8A201382A5EAF6CF8E35ED124CA0 /* Pods-MyTestApp.modulemap */,
+				B057F8377F6022EF8EC5B946188ADBB0 /* Pods-MyTestApp-acknowledgements.markdown */,
+				6D9B532FC4E3E9649C8B79D01149F947 /* Pods-MyTestApp-acknowledgements.plist */,
+				4269B8330E0A6F2989604110B415CCBE /* Pods-MyTestApp-dummy.m */,
+				417A305D7091D3CE1E5ADB9D287B61DB /* Pods-MyTestApp-frameworks.sh */,
+				0926B9A2C93664963F0120DCB8161D2B /* Pods-MyTestApp-resources.sh */,
+				88BC5E91A173A4F8131B048B48A7B9E2 /* Pods-MyTestApp-umbrella.h */,
+				0718DCB3246421DE51A7BD8A75E0D8CF /* Pods-MyTestApp.debug.xcconfig */,
+				367F4112144C27189619F3F1A14C6EEC /* Pods-MyTestApp.release.xcconfig */,
+			);
+			name = "Pods-MyTestApp";
+			path = "Target Support Files/Pods-MyTestApp";
+			sourceTree = "<group>";
+		};
+		283933AD0AF57A6C406909D9083B7B76 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				E454ED9F55FA8D1FFC18E3988D423FF3 /* LYTCatalogCollectionViewController.h */,
+				E08E928E1247ACBB87BCC70B8042CBA3 /* LYTCatalogCollectionViewController.m */,
+				BE52928027A630737190CD21CFE32A31 /* LYTCatalogTableViewController.h */,
+				54388E710E8647005C47765F1990150D /* LYTCatalogTableViewController.m */,
+				24D9D7E10F57122C2D052537A705A498 /* LYTViewCatalogProvider.h */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+		29334BEEE4126D61F0CFF190EA54AE29 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1ECE96FF411C6B4FECC60928B09EEABB /* LYTConfig.h */,
+				67E571CA8E9550124546685D37894A6E /* LYTConfig.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		2A55C80797C26B4086540347888F47D9 /* Pods-MyTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3748098E10881F5588A3F79216711 /* Info.plist */,
+				D121844D4BC9C07A3E8D613D36091D12 /* Pods-MyTestAppUITests.modulemap */,
+				B185F4EA684C97118980EDC5733DD67E /* Pods-MyTestAppUITests-acknowledgements.markdown */,
+				61EB50E4F43A7BD7CA3A17A304F398C0 /* Pods-MyTestAppUITests-acknowledgements.plist */,
+				2E962643B59FB707EECC4AAB224313C2 /* Pods-MyTestAppUITests-dummy.m */,
+				8727908F785FAA184FD03A2A6CDBFAA0 /* Pods-MyTestAppUITests-frameworks.sh */,
+				EE67057257E403B0ACA5C80909D0D412 /* Pods-MyTestAppUITests-resources.sh */,
+				7E310E7FF4C1E3B035B6B3A3DCD22524 /* Pods-MyTestAppUITests-umbrella.h */,
+				7CFE469BAF85D99C765A49F4F504EA04 /* Pods-MyTestAppUITests.debug.xcconfig */,
+				0249B910B50E04A9AF7AAB282060A9B5 /* Pods-MyTestAppUITests.release.xcconfig */,
+			);
+			name = "Pods-MyTestAppUITests";
+			path = "Target Support Files/Pods-MyTestAppUITests";
+			sourceTree = "<group>";
+		};
+		2EBD8D446DAFF323AFDCB608F206A648 /* LayoutTest */ = {
+			isa = PBXGroup;
+			children = (
+				7A84476090C7C73705387F34CBDE68D3 /* Support Files */,
+				ECCECA42147C46720C04C8CA7F5ADDF3 /* SwiftSubspec */,
+				C652DD9BADC93EB209BAD0278E238772 /* TestCase */,
+			);
+			name = LayoutTest;
+			path = LayoutTest;
+			sourceTree = "<group>";
+		};
+		49E1C34650F3218ACBC678494A66F49D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A8885C00D3979F6E26070D94554F2E33 /* LYTBoolValues.h */,
+				9253878E1603722C890A564268A666C4 /* LYTBoolValues.m */,
+				B7FA5A20B50B26C508BF680217868B31 /* LYTDataValues.h */,
+				618F844FE0FDB794EB8235FCFB86AEB8 /* LYTDataValues.m */,
+				FB49DEFE75C1D6A6F63BC4793FFA1C1C /* LYTDeviceConstants.h */,
+				008E2502597D50207D86A42B087DF585 /* LYTDeviceConstants.m */,
+				998D486D4154F18DD222B3EE8C170A3F /* LYTFloatValues.h */,
+				1498E34F3DD0EB3473293B8F05845CDB /* LYTFloatValues.m */,
+				327B7043FDCC0538D7B20679F2D109AA /* LYTImageValues.h */,
+				83780F922EF64C9A6B042530251F6EEB /* LYTImageValues.m */,
+				54520908C13C5CB4FE16D625CE3E220A /* LYTIntegerValues.h */,
+				C65DB1B19F1F13D4C9276C7B28CC358F /* LYTIntegerValues.m */,
+				ABFB3AF75E3FE43E2BE257C40063BE5E /* LYTLayoutPropertyTester.h */,
+				3DAB670B4A43874277B78F7433FF6942 /* LYTLayoutPropertyTester.m */,
+				7C55E33664C7CA32EB0D749267657BB3 /* LYTMutableCopier.h */,
+				61FC9A34627BEECEE6D8EBBB07C929EC /* LYTMutableCopier.m */,
+				4F0492FA864AFAFBB0191FFA057801A6 /* LYTStringValues.h */,
+				75EC1AE5044C4C40091067C77AD31780 /* LYTStringValues.m */,
+				E60F3ED567A342A683C5CC0793033928 /* LYTValuesIterator.h */,
+				C2BDB3CE8A48FA75C9CA5FD65009CC38 /* LYTValuesIterator.m */,
+				ED1D028C68972D4CC9DF1F269DC1D0B4 /* LYTViewProvider.h */,
+				26A61BA2841A085F197DEB3ACE4C80F8 /* LYTViewSize.h */,
+				E193629387342524C5CA8CF191B96ACE /* LYTViewSize.m */,
+				763638D80B44869B75229D811197790E /* UIView+LYTViewSize.h */,
+				60E92B89D255C35C6D6395C6371AB0DA /* UIView+LYTViewSize.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		51EF8258FFC6B4B6F43CAA37F3D4CE53 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				451C1CA212F1731CBCC01676AE6B399E /* Foundation.framework */,
+				8CD628EB2582C53A293427CF7AAD243B /* UIKit.framework */,
+				2B9311ECDBF0C0F98527660F5273970B /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A84476090C7C73705387F34CBDE68D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC3BA3ED79B7C3B70782FA142BB204 /* Info.plist */,
+				FA3B203C44C33A0DEF12876236489CA7 /* LayoutTest.modulemap */,
+				A34DA6C2A24A8C47A49E8B6FE4A4959C /* LayoutTest.xcconfig */,
+				837733C838B4EBB7E600B6FAA78CD8FE /* LayoutTest-dummy.m */,
+				11E970404495F03F7B828FE79FD72713 /* LayoutTest-prefix.pch */,
+				8B1B2ED1A76084ABDDF7A5FDA7EBAB3E /* LayoutTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LayoutTest";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A518D010614CE8CF8D56C4435F7BF63A /* Frameworks */,
+				127D3323AFA8DB3700AEE22F518A0893 /* Pods */,
+				B6ABE87F5841DCF07C955D0FC6A2495C /* Products */,
+				F69A5374DBA9C0E3B070D4AC12ADDEC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		843F2C48BF82EF72860C1385B937946D /* LayoutTestBase */ = {
+			isa = PBXGroup;
+			children = (
+				E286B7C995050DDDABF155DB99F69BDF /* Autolayout */,
+				283933AD0AF57A6C406909D9083B7B76 /* Catalog */,
+				29334BEEE4126D61F0CFF190EA54AE29 /* Config */,
+				49E1C34650F3218ACBC678494A66F49D /* Core */,
+				E3BC39208F65CBC50760E797FE2DA597 /* Support Files */,
+				D6E38779A79E1BB36E9A5A2915941EBD /* Swift */,
+				A7A5A0ADD8B58624FB28724F6D1530D8 /* UIViewHelpers */,
+			);
+			name = LayoutTestBase;
+			path = LayoutTestBase;
+			sourceTree = "<group>";
+		};
+		96A2FCA6259AEA563E7E5EFDC6C83290 /* Pods-MyTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2522BB5DB59900263271ADB225D05A /* Info.plist */,
+				C1B0FB089CB14C2D5D4DCD32EDD95293 /* Pods-MyTestAppTests.modulemap */,
+				AA044CCC2899F3770BBF0F6EEA6D390A /* Pods-MyTestAppTests-acknowledgements.markdown */,
+				943C38F1A3480D24B433A0F78951DAA0 /* Pods-MyTestAppTests-acknowledgements.plist */,
+				797F367E743DE5B3DD2544D9D1EEDCA1 /* Pods-MyTestAppTests-dummy.m */,
+				873815F9C5CF2D7059852AEDFA56FDFF /* Pods-MyTestAppTests-frameworks.sh */,
+				FE7CF3259FBE661C2BA6B721420ABE14 /* Pods-MyTestAppTests-resources.sh */,
+				EF04F70226A2C8A3D1AF520E6CBE41DB /* Pods-MyTestAppTests-umbrella.h */,
+				FA8CC2B1BDD9B923A6F9B911D1B03669 /* Pods-MyTestAppTests.debug.xcconfig */,
+				1B3F587FD7631C20E055A0CA6C8DE531 /* Pods-MyTestAppTests.release.xcconfig */,
+			);
+			name = "Pods-MyTestAppTests";
+			path = "Target Support Files/Pods-MyTestAppTests";
+			sourceTree = "<group>";
+		};
+		A518D010614CE8CF8D56C4435F7BF63A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE5DF353B15D079112C95DB4930DD091 /* LayoutTestBase.framework */,
+				51EF8258FFC6B4B6F43CAA37F3D4CE53 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A5A0ADD8B58624FB28724F6D1530D8 /* UIViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				9E2CB8B86C13C6ABD639B1C2BB9A2B46 /* UIView+LYTFrameComparison.h */,
+				9B0942BF22477405C252688BC108304D /* UIView+LYTFrameComparison.m */,
+				9C54FC85F4CF7E0F2643222C87CA09F7 /* UIView+LYTHelpers.h */,
+				4FA3A5D8AABEA7AD2C9972ED37603089 /* UIView+LYTHelpers.m */,
+				6CBA6DF6742E5EB4ED193BB35224FF32 /* UIView+LYTTestHelpers.h */,
+				0A1430D8A24E0AB1818514252038A4B5 /* UIView+LYTTestHelpers.m */,
+			);
+			name = UIViewHelpers;
+			sourceTree = "<group>";
+		};
+		B6ABE87F5841DCF07C955D0FC6A2495C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9364B9818240D1CAA85B11D8778FDE85 /* LayoutTest.framework */,
+				CFC308A39B88852BD025D4F2C34E4D73 /* LayoutTestBase.framework */,
+				C10D3265E19CC0C1AB8119ECA0792287 /* Pods_MyTestApp.framework */,
+				B5549C856DD410430FD9E732DEF6C635 /* Pods_MyTestAppTests.framework */,
+				DD02139853F3DCE39E91045A63811AA6 /* Pods_MyTestAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C652DD9BADC93EB209BAD0278E238772 /* TestCase */ = {
+			isa = PBXGroup;
+			children = (
+				FFF35D6C5829B26DE8D7E049D55F624E /* LYTLayoutFailingTestSnapshotRecorder.h */,
+				D6C836A51B006FEBD3AD6B1CC837124F /* LYTLayoutFailingTestSnapshotRecorder.m */,
+				2BC4B32D54D7F3D1F371CE0EF0E21348 /* LYTLayoutTestCase.h */,
+				61FE06C5550B93BDE18DD411E094329D /* LYTLayoutTestCase.m */,
+			);
+			name = TestCase;
+			sourceTree = "<group>";
+		};
+		D6E38779A79E1BB36E9A5A2915941EBD /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E0EB4220E9734BBF6019D25C21CFF33D /* LayoutTestBase.h */,
+				122282246D83AB2B767D6DFCA251F6B6 /* LYTDataValues+Swift.swift */,
+				88CC5A55EE68F25644CE55E5C65E4E80 /* LYTViewSize+Swift.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		E286B7C995050DDDABF155DB99F69BDF /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				E315EAF9480EED5150BFA2ED90E93638 /* LYTAutolayoutFailureIntercepter.h */,
+				3996F3537B858D79F9E0FBE11EAE1672 /* LYTAutolayoutFailureIntercepter.m */,
+			);
+			name = Autolayout;
+			sourceTree = "<group>";
+		};
+		E3BC39208F65CBC50760E797FE2DA597 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D325BDAC3143EDDABDD0374C8930B5 /* Info.plist */,
+				EAEE0C2E351EE3BF3336E7E5AECE2F27 /* LayoutTestBase.modulemap */,
+				C00DA774F1EDF03D35D1BC6B41AA4276 /* LayoutTestBase.xcconfig */,
+				3E06A9389DA6D64C554DB0CBC7F48146 /* LayoutTestBase-dummy.m */,
+				BE88F77DA17F25F765715433FAFC9D60 /* LayoutTestBase-prefix.pch */,
+				72E6F16326D4C11356E36D69D8B9B3F8 /* LayoutTestBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LayoutTestBase";
+			sourceTree = "<group>";
+		};
+		ECCECA42147C46720C04C8CA7F5ADDF3 /* SwiftSubspec */ = {
+			isa = PBXGroup;
+			children = (
+				CAB207DF307A7F5A92B62408CF94D2CB /* LayoutTest.h */,
+				75138DF124436A8BBD773A6CB51AB167 /* LayoutTestCase.swift */,
+			);
+			name = SwiftSubspec;
+			sourceTree = "<group>";
+		};
+		F69A5374DBA9C0E3B070D4AC12ADDEC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24AD6CA72371E78B15C6446DD5148698 /* Pods-MyTestApp */,
+				96A2FCA6259AEA563E7E5EFDC6C83290 /* Pods-MyTestAppTests */,
+				2A55C80797C26B4086540347888F47D9 /* Pods-MyTestAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05C463CFC1704EC156ED3BD2D98FCCD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C7C6BA7E3348AB9B67F1A5C7E71BE3 /* LayoutTestBase-umbrella.h in Headers */,
+				F991FFADF7542A3B49DEB2655AA35634 /* LayoutTestBase.h in Headers */,
+				4107432862708448D2C58D3052FB0C86 /* LYTAutolayoutFailureIntercepter.h in Headers */,
+				3E5BF63D44A4A61124B4A851483C28F6 /* LYTBoolValues.h in Headers */,
+				3FB2E7AD478B16F5D942012E85BEC25F /* LYTCatalogCollectionViewController.h in Headers */,
+				68D58153111772D39B407C5284BDB3C4 /* LYTCatalogTableViewController.h in Headers */,
+				48E85843CC77C433D802CA53F582AC82 /* LYTConfig.h in Headers */,
+				910497D3C94AEF31989353EE22CDE40E /* LYTDataValues.h in Headers */,
+				7015955B7AC78038B998BFE28B04CCA7 /* LYTDeviceConstants.h in Headers */,
+				E20141AC536B60C610C12A600E3967D4 /* LYTFloatValues.h in Headers */,
+				5E2DF53BF5E74B2FD02744B1C2134623 /* LYTImageValues.h in Headers */,
+				433D5DA50FE72057B1EF5D8E7C28058F /* LYTIntegerValues.h in Headers */,
+				72B08832C59E63CC61A6559C71E83EBF /* LYTLayoutPropertyTester.h in Headers */,
+				4A65605779D5057C7BEEEECF4347237F /* LYTMutableCopier.h in Headers */,
+				B8A63391581E7E67D3724B5F5FE7198E /* LYTStringValues.h in Headers */,
+				32E70534233D6FECF0B969D731C26605 /* LYTValuesIterator.h in Headers */,
+				57EA2D3162D2D50D7BD7499B594D036D /* LYTViewCatalogProvider.h in Headers */,
+				739F49476D37EC22F9BCBA0B0BDD4324 /* LYTViewProvider.h in Headers */,
+				DA79AD21A88D074845A6D90D637D2A82 /* LYTViewSize.h in Headers */,
+				1056C2C41E46A091038271E43865A0A2 /* UIView+LYTFrameComparison.h in Headers */,
+				A34689959CA8AF0F1EE2EDF3FA48FE73 /* UIView+LYTHelpers.h in Headers */,
+				09651F96C113F6E2792355161CB47A46 /* UIView+LYTTestHelpers.h in Headers */,
+				E35D2ABE4875CC36665EF06B7771107F /* UIView+LYTViewSize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450B19ADB90104CDCCEC53D7F56514CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA6A171A56E7A2992D77B9BE2F5B595 /* Pods-MyTestAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B2882E9A5D4D5C40D2EA24476933A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D49B60AEFD06D881CF31C971BCE3B8 /* Pods-MyTestAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11C7E4B52F817F7A2D7DC45C84E7E96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E291DDA98269BD4569B0D6807B95068D /* LayoutTest-umbrella.h in Headers */,
+				416790FA1266E499658CA1245F165D0E /* LayoutTest.h in Headers */,
+				D599F39E36C1ECF9E9D4110B0A0AB636 /* LYTLayoutFailingTestSnapshotRecorder.h in Headers */,
+				610D965A161E6C01870064D486A26044 /* LYTLayoutTestCase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCBCA9F97643867CB22FF03709E371 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F81FA54DA34F8ED06E46B5EC0FB2DA /* Pods-MyTestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		209F8A33D536E772FCB639581DA587C2 /* LayoutTestBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3614FA6226B144CFBC5FE9835D580C /* Build configuration list for PBXNativeTarget "LayoutTestBase" */;
+			buildPhases = (
+				45F37A898EFA2712DDFB791FFA11CA2A /* Sources */,
+				28EB2E006A16D42A91DDDB4BE4025374 /* Frameworks */,
+				05C463CFC1704EC156ED3BD2D98FCCD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayoutTestBase;
+			productName = LayoutTestBase;
+			productReference = CFC308A39B88852BD025D4F2C34E4D73 /* LayoutTestBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28FA53D081D39877A573B5B1DD59FCBE /* Pods-MyTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD733D9937949DE0CE05247188E70C74 /* Build configuration list for PBXNativeTarget "Pods-MyTestApp" */;
+			buildPhases = (
+				21A976697DF1000D9A476CC8B79159D2 /* Sources */,
+				813E11D59FE68CCD1CEFF07E0CE94C69 /* Frameworks */,
+				CEDCBCA9F97643867CB22FF03709E371 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyTestApp";
+			productName = "Pods-MyTestApp";
+			productReference = C10D3265E19CC0C1AB8119ECA0792287 /* Pods_MyTestApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37532FD9538D96065EEB9710F6479009 /* Pods-MyTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070533AB9B06C2073F2E9EC5D42B209F /* Build configuration list for PBXNativeTarget "Pods-MyTestAppTests" */;
+			buildPhases = (
+				2A92A7905ADA320199AB6C9ECDFB7164 /* Sources */,
+				2651311F4F81BEEFB8D4AD3AFD507E6E /* Frameworks */,
+				450B19ADB90104CDCCEC53D7F56514CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB8B4CC23EF07F4402C90F958BABA6F /* PBXTargetDependency */,
+				256276D5BC6EBC65462169764C07D765 /* PBXTargetDependency */,
+				902F01D468B276982B86E45E45F8DF4A /* PBXTargetDependency */,
+			);
+			name = "Pods-MyTestAppTests";
+			productName = "Pods-MyTestAppTests";
+			productReference = B5549C856DD410430FD9E732DEF6C635 /* Pods_MyTestAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73B630634C5AE5B672A3FC2FD6A21DFD /* LayoutTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C14F203ABC09E00D8CE853AF75A7682 /* Build configuration list for PBXNativeTarget "LayoutTest" */;
+			buildPhases = (
+				31CE7CC8F46967FA3948AD09482E7A9F /* Sources */,
+				42728B135634605EF96530EBB3378B50 /* Frameworks */,
+				C11C7E4B52F817F7A2D7DC45C84E7E96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8F6117EAB52DFEB0317F2849DE12F8 /* PBXTargetDependency */,
+			);
+			name = LayoutTest;
+			productName = LayoutTest;
+			productReference = 9364B9818240D1CAA85B11D8778FDE85 /* LayoutTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D017357B6DB6621E9651FCCC0CE463FE /* Pods-MyTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18A08399FE736D3AAB99C1A3250268B /* Build configuration list for PBXNativeTarget "Pods-MyTestAppUITests" */;
+			buildPhases = (
+				F72E4B92BCB400ADECA5F85C6DF60A03 /* Sources */,
+				53FFCA5AAB674CA9892B5B8EAF4C9041 /* Frameworks */,
+				92B2882E9A5D4D5C40D2EA24476933A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCC31F7447E6060510D6A8809B5AD3F /* PBXTargetDependency */,
+			);
+			name = "Pods-MyTestAppUITests";
+			productName = "Pods-MyTestAppUITests";
+			productReference = DD02139853F3DCE39E91045A63811AA6 /* Pods_MyTestAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B6ABE87F5841DCF07C955D0FC6A2495C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73B630634C5AE5B672A3FC2FD6A21DFD /* LayoutTest */,
+				209F8A33D536E772FCB639581DA587C2 /* LayoutTestBase */,
+				28FA53D081D39877A573B5B1DD59FCBE /* Pods-MyTestApp */,
+				37532FD9538D96065EEB9710F6479009 /* Pods-MyTestAppTests */,
+				D017357B6DB6621E9651FCCC0CE463FE /* Pods-MyTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A976697DF1000D9A476CC8B79159D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADED42D73AC566714FC5D10A7A67BD7F /* Pods-MyTestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92A7905ADA320199AB6C9ECDFB7164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA85616343112E9CD90D5AB933B7FF1 /* Pods-MyTestAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CE7CC8F46967FA3948AD09482E7A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D139DE8398A8EA55B531451E89237BF /* LayoutTest-dummy.m in Sources */,
+				70D0A8C5EB36CF91EE6260CABA5E3AC7 /* LayoutTestCase.swift in Sources */,
+				98F5C3CADD13EB91678090BE0945FF57 /* LYTLayoutFailingTestSnapshotRecorder.m in Sources */,
+				3B294F233F20C5B465B60B7AFC506B0B /* LYTLayoutTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F37A898EFA2712DDFB791FFA11CA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708C792077EEB4AEDA422AA068682AB5 /* LayoutTestBase-dummy.m in Sources */,
+				70278D989FE0D89DAAFAE0A367FBA224 /* LYTAutolayoutFailureIntercepter.m in Sources */,
+				C269391B090505CB002FE02BF8CEAFF6 /* LYTBoolValues.m in Sources */,
+				21403B6D9D88E0A6C090C38E94A75A74 /* LYTCatalogCollectionViewController.m in Sources */,
+				90BA6E8AD63A878E5D8CC2DF23EB6C36 /* LYTCatalogTableViewController.m in Sources */,
+				42DBA1AD6527ADF0D65CE329C9DDAFF8 /* LYTConfig.m in Sources */,
+				CDCFD4BD2068F19C63037BD4B5A98D2F /* LYTDataValues+Swift.swift in Sources */,
+				F5A74D85950E95486EA9D9E111FB6B88 /* LYTDataValues.m in Sources */,
+				E67959D08F11ABF8E36C5D8447AB62D8 /* LYTDeviceConstants.m in Sources */,
+				9093D3CBAC0B990E9531E5755D670295 /* LYTFloatValues.m in Sources */,
+				41D1261F9229462153A30013AA38CC5A /* LYTImageValues.m in Sources */,
+				6FA313A9455B6F4D809844239EA954DA /* LYTIntegerValues.m in Sources */,
+				E73BC918D28F6AE5A762632568FDA850 /* LYTLayoutPropertyTester.m in Sources */,
+				FB81BCD30FAF4419F6F5D9344FF57F4E /* LYTMutableCopier.m in Sources */,
+				A735F93236004DAD9D7BF18BF23DA89C /* LYTStringValues.m in Sources */,
+				F85826E8238D44A34B9D4158022DFC13 /* LYTValuesIterator.m in Sources */,
+				3EB46CF49E04E1C6F7BAC53CF36F7451 /* LYTViewSize+Swift.swift in Sources */,
+				0C3AD5833CB62C8EA15F25434B2DE2E8 /* LYTViewSize.m in Sources */,
+				6EE2D480CEF1A89497D0D74C4E2C6511 /* UIView+LYTFrameComparison.m in Sources */,
+				9579E379AB1D56416171A6F605AA684B /* UIView+LYTHelpers.m in Sources */,
+				58F5D4C6606E22E33163B463B5E18DEB /* UIView+LYTTestHelpers.m in Sources */,
+				893E6FD241775DFA8E3EDEC55E758A13 /* UIView+LYTViewSize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72E4B92BCB400ADECA5F85C6DF60A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7395B7BE536E0A0809F11F8909732373 /* Pods-MyTestAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256276D5BC6EBC65462169764C07D765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LayoutTestBase;
+			target = 209F8A33D536E772FCB639581DA587C2 /* LayoutTestBase */;
+			targetProxy = BB96F8C014234BBAF42115AA48029731 /* PBXContainerItemProxy */;
+		};
+		3A8F6117EAB52DFEB0317F2849DE12F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LayoutTestBase;
+			target = 209F8A33D536E772FCB639581DA587C2 /* LayoutTestBase */;
+			targetProxy = D5105A291E843616AF4145AB3F5A0E62 /* PBXContainerItemProxy */;
+		};
+		902F01D468B276982B86E45E45F8DF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyTestApp";
+			target = 28FA53D081D39877A573B5B1DD59FCBE /* Pods-MyTestApp */;
+			targetProxy = C133D515A2D7B821846A672A5B32184C /* PBXContainerItemProxy */;
+		};
+		CAB8B4CC23EF07F4402C90F958BABA6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LayoutTest;
+			target = 73B630634C5AE5B672A3FC2FD6A21DFD /* LayoutTest */;
+			targetProxy = ADC7FC82BEEEEEFFF359DC1D44796FF3 /* PBXContainerItemProxy */;
+		};
+		CFCC31F7447E6060510D6A8809B5AD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyTestApp";
+			target = 28FA53D081D39877A573B5B1DD59FCBE /* Pods-MyTestApp */;
+			targetProxy = 69DA00C8462AD0C622032061B8A0E207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11481775A05413CDA07244704CEE2378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3F587FD7631C20E055A0CA6C8DE531 /* Pods-MyTestAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTestAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTestAppTests/Pods-MyTestAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		526E42AE8F28980422D3314C592F8672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0718DCB3246421DE51A7BD8A75E0D8CF /* Pods-MyTestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTestApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTestApp/Pods-MyTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C8121AEA47614390935F63E7D358D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34DA6C2A24A8C47A49E8B6FE4A4959C /* LayoutTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTest/LayoutTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayoutTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LayoutTest/LayoutTest.modulemap";
+				PRODUCT_MODULE_NAME = LayoutTest;
+				PRODUCT_NAME = LayoutTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		975DB01610F77F91A02383E30EE20812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367F4112144C27189619F3F1A14C6EEC /* Pods-MyTestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTestApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTestApp/Pods-MyTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B13B0EBA126104B73CB5129B1641B933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0249B910B50E04A9AF7AAB282060A9B5 /* Pods-MyTestAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTestAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTestAppUITests/Pods-MyTestAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE2DDB78124C1D9FB7C3A4BD6CA387F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00DA774F1EDF03D35D1BC6B41AA4276 /* LayoutTestBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTestBase/LayoutTestBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayoutTestBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LayoutTestBase/LayoutTestBase.modulemap";
+				PRODUCT_MODULE_NAME = LayoutTestBase;
+				PRODUCT_NAME = LayoutTestBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7C9FB81B64A4BD308DFC4C8AE3891FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00DA774F1EDF03D35D1BC6B41AA4276 /* LayoutTestBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTestBase/LayoutTestBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayoutTestBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LayoutTestBase/LayoutTestBase.modulemap";
+				PRODUCT_MODULE_NAME = LayoutTestBase;
+				PRODUCT_NAME = LayoutTestBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D30658E406BD1A1840A2D0912555D2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34DA6C2A24A8C47A49E8B6FE4A4959C /* LayoutTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayoutTest/LayoutTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayoutTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LayoutTest/LayoutTest.modulemap";
+				PRODUCT_MODULE_NAME = LayoutTest;
+				PRODUCT_NAME = LayoutTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5EC7BDD78D987627E63DB4155D19CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8CC2B1BDD9B923A6F9B911D1B03669 /* Pods-MyTestAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTestAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTestAppTests/Pods-MyTestAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E915C7D93A68D9ED311607A06C6BE102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFE469BAF85D99C765A49F4F504EA04 /* Pods-MyTestAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTestAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTestAppUITests/Pods-MyTestAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070533AB9B06C2073F2E9EC5D42B209F /* Build configuration list for PBXNativeTarget "Pods-MyTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EC7BDD78D987627E63DB4155D19CBB /* Debug */,
+				11481775A05413CDA07244704CEE2378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3614FA6226B144CFBC5FE9835D580C /* Build configuration list for PBXNativeTarget "LayoutTestBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C9FB81B64A4BD308DFC4C8AE3891FF /* Debug */,
+				BE2DDB78124C1D9FB7C3A4BD6CA387F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C14F203ABC09E00D8CE853AF75A7682 /* Build configuration list for PBXNativeTarget "LayoutTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30658E406BD1A1840A2D0912555D2D9 /* Debug */,
+				8C8121AEA47614390935F63E7D358D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD733D9937949DE0CE05247188E70C74 /* Build configuration list for PBXNativeTarget "Pods-MyTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526E42AE8F28980422D3314C592F8672 /* Debug */,
+				975DB01610F77F91A02383E30EE20812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18A08399FE736D3AAB99C1A3250268B /* Build configuration list for PBXNativeTarget "Pods-MyTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E915C7D93A68D9ED311607A06C6BE102 /* Debug */,
+				B13B0EBA126104B73CB5129B1641B933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

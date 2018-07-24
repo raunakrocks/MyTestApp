@@ -33,10 +33,11 @@ class MyCustomView: UIView {
     init(label1Text: String,
          label2Text: String) {
         super.init(frame: CGRect.zero)
-        label1.text = label1Text
-        label2.text = label2Text
         setupViews()
         setupConstraints()
+        label1.text = label1Text
+        label2.text = label2Text
+        backgroundColor = .yellow
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -54,8 +55,9 @@ class MyCustomView: UIView {
         var constraints = [NSLayoutConstraint]()
         constraints += [label1.centerYAnchor.constraint(equalTo: centerYAnchor)]
         constraints += [label2.centerYAnchor.constraint(equalTo: centerYAnchor)]
-        constraints += [label1.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.0)]
-        constraints += [label2.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.0)]
+        constraints += [label1.leftAnchor.constraint(equalTo: leftAnchor, constant: 16.0)]
+        constraints += [label2.rightAnchor.constraint(equalTo: rightAnchor, constant: -16.0)]
+        constraints += [label1.rightAnchor.constraint(lessThanOrEqualTo: label2.leftAnchor)]
         NSLayoutConstraint.activate(constraints)
     }
 }
