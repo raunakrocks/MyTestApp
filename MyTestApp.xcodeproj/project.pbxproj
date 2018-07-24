@@ -14,6 +14,9 @@
 		D33FF1C221072956001A4286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33FF1C021072956001A4286 /* LaunchScreen.storyboard */; };
 		D33FF1CD21072956001A4286 /* MyTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FF1CC21072956001A4286 /* MyTestAppTests.swift */; };
 		D33FF1D821072956001A4286 /* MyTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FF1D721072956001A4286 /* MyTestAppUITests.swift */; };
+		D33FF1E621072E8B001A4286 /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FF1E521072E8B001A4286 /* MyCustomView.swift */; };
+		D33FF1EA21072FD1001A4286 /* UIViewExntensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FF1E921072FD1001A4286 /* UIViewExntensions.swift */; };
+		D33FF1EC21073144001A4286 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FF1EB21073144001A4286 /* UILabelExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D33FF1D321072956001A4286 /* MyTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33FF1D721072956001A4286 /* MyTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestAppUITests.swift; sourceTree = "<group>"; };
 		D33FF1D921072956001A4286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33FF1E521072E8B001A4286 /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		D33FF1E921072FD1001A4286 /* UIViewExntensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExntensions.swift; sourceTree = "<group>"; };
+		D33FF1EB21073144001A4286 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				D33FF1B721072955001A4286 /* AppDelegate.swift */,
 				D33FF1B921072955001A4286 /* ViewController.swift */,
+				D33FF1E521072E8B001A4286 /* MyCustomView.swift */,
+				D33FF1EB21073144001A4286 /* UILabelExtensions.swift */,
+				D33FF1E921072FD1001A4286 /* UIViewExntensions.swift */,
 				D33FF1BB21072955001A4286 /* Main.storyboard */,
 				D33FF1BE21072956001A4286 /* Assets.xcassets */,
 				D33FF1C021072956001A4286 /* LaunchScreen.storyboard */,
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33FF1BA21072955001A4286 /* ViewController.swift in Sources */,
+				D33FF1EA21072FD1001A4286 /* UIViewExntensions.swift in Sources */,
+				D33FF1EC21073144001A4286 /* UILabelExtensions.swift in Sources */,
+				D33FF1E621072E8B001A4286 /* MyCustomView.swift in Sources */,
 				D33FF1B821072955001A4286 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
